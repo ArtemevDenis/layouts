@@ -1,0 +1,393 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.themes-dark {
+    background: #4a4949;
+}
+
+.themes-light {
+    background: #fff;
+}
+
+.disable {
+    color: gray !important;
+    cursor: default !important;
+    border-bottom-color: gray !important;
+}
+
+/*.disable {*/
+/*    display: none;*/
+/*}*/
+
+.header {
+}
+
+.inner {
+    padding: 50px 0;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.header .head .logo,
+.header .head .title,
+.header .head .book {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header .head .logo {
+    float: left;
+}
+
+.header .head .book {
+    float: right;
+}
+
+.header .head .title {
+    line-height: 52px;
+    font-size: 36px;
+    color: #fff;
+    text-align: right;
+    margin-left: 230px;
+    letter-spacing: 0.05em;
+}
+
+.header .head .title .by {
+    line-height: 52px;
+    font-size: 20px;
+    color: #ffa366;
+    text-align: right;
+    vertical-align: top;
+    letter-spacing: normal;
+    padding-right: 3px;
+}
+
+.header .content {
+    margin-top: 80px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.header .content .menu {
+    font-size: 28px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 66px;
+    min-height: 430px;
+
+}
+
+.header .content .menu p a {
+    position: relative;
+}
+
+.header .content .menu p a:before {
+    content: "";
+    border-bottom: #fff 2px solid;
+    width: 100%;
+    position: absolute;
+    top: 30px
+}
+
+
+.header .content .description {
+    position: absolute;
+    left: 400px;
+    top: 0;
+}
+
+.header .content .description .title {
+    line-height: 50px;
+    font-size: 36px;
+    color: #fff;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 52px;
+    font-weight: 200;
+}
+
+.header .content .description .text {
+    width: 700px;
+    font-size: 23px;
+    color: #fff;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+
+.action-block {
+    text-align: center;
+    margin: 0 auto 30px auto;
+    width: 480px;
+}
+
+.action-block .text {
+    font-size: 16px;
+    margin-right: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.action-block .button {
+    background-color: #ffa366;
+    padding: 18px 68px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.about-book {
+
+}
+
+.about-book .title-block {
+    margin: 30px 0 80px 180px;
+}
+
+.about-book .title-block .title {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 200;
+    letter-spacing: 0.03rem
+}
+
+.about-book .content .video {
+    margin-top: 65px;
+    text-align: center;
+}
+
+.about-book .content .video img {
+    margin-left: 65px;
+}
+
+.about-book .content .wrapper {
+    margin-top: -24px;
+}
+
+.about-book .content .wrapper .text {
+    color: #656565;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+
+.about-book .content .wrapper .quote-block {
+    max-width: 710px;
+    position: relative;
+    margin-bottom: 68px;
+}
+
+.about-book .content .wrapper .quote-block .text {
+    max-width: 610px;
+    position: relative;
+    font-size: 26px;
+    line-height: 48px;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.about-book .content .wrapper .quote-block .icon {
+    width: 39px;
+    height: 32px;
+    float: right;
+    margin: 6px 0 0 auto;
+    background: url("../img/Quotes - Icon.png");
+}
+
+.about-book .content .wrapper .quote-block .text .author {
+    color: #fda266;
+}
+
+
+.video-book {
+
+}
+
+.video-book .title-block {
+    margin: 45px auto 110px auto;
+}
+
+.video-book .title-block .title {
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-weight: 200;
+    letter-spacing: 0.03rem
+}
+
+.video-book .title-block .subtitle {
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #b5b5b5;
+    clear: both;
+    margin-top: -5px;
+}
+
+
+.video-book .content .wrapper {
+    margin-top: -10px;
+}
+
+.content .wrapper .text {
+    line-height: 36px;
+    font-size: 20px;
+    color: #b5b5b5;
+    margin-bottom: 55px;
+    letter-spacing: 0.03rem
+}
+
+.video-book .content .wrapper .text {
+    color: #b5b5b5;
+}
+
+.row {
+    width: 100%;
+    position: relative;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-40 {
+    float: left;
+    width: 40%;
+}
+
+.col-60 {
+    float: left;
+    width: 60%;
+}
+
+.col-50 {
+    float: left;
+    width: 50%;
+}
+
+.wrapper {
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.white-line {
+    width: 100%;
+    height: 1px;
+    background: #b5b5b5;
+}
+
+.free-chapters {
+
+}
+
+.free-chapters .content {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.free-chapters .content .text {
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    color: #b5b5b5;
+    letter-spacing: 0.04rem;
+    margin-bottom: 45px;
+}
+
+
+.free-chapters .content .form-send-chapters {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.free-chapters .content .form-send-chapters .button {
+    display: inline-block;
+    background-color: #ffa366;
+    padding: 18px 30px;
+    border-radius: 5px;
+    vertical-align: middle;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 2px 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.free-chapters .content .form-send-chapters .input {
+    border: #717070 2px solid;
+    background-color: #4a4949;
+    text-align: left;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fff;
+    width: 250px;
+    padding: 17px 20px 17px 20px;
+    box-shadow: none;
+    margin: 2px 10px;
+}
+
+.free-chapters .content .form-send-chapters .input::placeholder {
+    color: #b5b5b5;
+    font-size: 14px;
+}
+
+.free-chapters .content .small {
+    display: block;
+    font-size: 12px;
+    color: #b5b5b5;
+    margin-bottom: 55px;
+}
+
+.footer {
+    background: #f5f5f5;
+}
+
+.footer .content .copyright {
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.footer .content .copyright .text {
+    display: inline-block;
+    font-size: 14px;
+
+    color: #b5b5b5;
+}
+
+.footer .content .copyright .links {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 10px;
+    color: #b5b5b5;
+}
+
+.footer .content .copyright .right {
+    position: absolute;
+    right: 0;
+}
+
+.footer .content .social {
+    text-align: right;
+
+}
+
+.footer .content .social a {
+    margin: 7px;
+}

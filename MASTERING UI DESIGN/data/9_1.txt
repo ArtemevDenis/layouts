@@ -1,0 +1,11 @@
+logo-title/MASTERING UI DESIGN
+logo-descr/By Henry Reyes
+left-menu/About
+left-menu/Chapters
+left-menu/Author
+left-menu/Buy a copy
+left-menu/About Us
+left-menu/Contacts/OFF
+quote-text/Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+quote-author/Pushkin A.S./OFF
+quote-author/Net Magazine
